@@ -1,12 +1,12 @@
 {
   "name": "shared-shadcn-ai",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Shared UI components for Shadcn-based projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "build": "node init && tsup",
+    "dev": "node init && tsup --watch",
     "lint": "eslint src/**/*.ts*",
     "clean": "rm -rf dist"
   },
